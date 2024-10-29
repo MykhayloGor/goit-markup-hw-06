@@ -460,18 +460,26 @@ footer .another-color {
     }
 }
 
-@media (min-resolution: 192dpi) and (min-width: 768px) {
+
+
+@media screen and (min-width: 768px) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-tab.jpg);
     }
 }
 
+@media (min-resolution: 192dpi) and (min-width: 768px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/offcie-tab@2x.jpg);
+    }
+}
 
 @media screen and (min-width: 1158px) {
     .hero {
         padding-top: 188px;
         padding-bottom: 188px;
         max-width: 1440px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     }
 
     .hero-heading {
@@ -481,7 +489,7 @@ footer .another-color {
 
 @media (min-resolution: 192dpi) and (min-width: 1158px) {
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@2x.jpg);
     }
 
 }
@@ -494,11 +502,7 @@ footer .another-color {
     padding-bottom: 96px;
 }
 
-.features-container {
-    /* display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; */
-}
+.features-container {}
 
 .features-heading {}
 
@@ -594,14 +598,12 @@ footer .another-color {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
-        /* margin-bottom: 8px; */
+
     }
 
     .features-text {
         font-weight: 400;
-        /* font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em; */
+
     }
 
     .features-icon-container {
@@ -754,7 +756,7 @@ footer .another-color {
 
     .team-list {
         flex-direction: row;
-        /* flex-wrap: nowrap; */
+
     }
 
     .team-item {
